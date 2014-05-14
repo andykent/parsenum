@@ -23,19 +23,18 @@ Simple examples
 Advanced Examples
 -----------------
 
-  number = Parsenum.parse("$3.99")
-  number.value      => 3.99
-  number.currency?  => true
-  number.currency   => 'USD'
+    number = Parsenum.parse("$3.99")
+    number.value      => 3.99
+    number.currency?  => true
+    number.currency   => 'USD'
 
-  number = Parsenum.parse("68%")
-  number.value        => 0.68
-  number.percentage?  => true
-
-  numbers = Parsenum.parse_all("8 out of 10 cats")
-  numbers.size               => 2
-  numbers.first.value        => 8
-  numbers.first.integer?     => true
+    number = Parsenum.parse("68%")
+    number.value        => 0.68
+    number.percentage?  => true
+    numbers = Parsenum.parse_all("8 out of 10 cats")
+    numbers.size               => 2
+    numbers.first.value        => 8
+    numbers.first.integer?     => true
 
 
 TODO
