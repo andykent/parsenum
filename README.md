@@ -20,8 +20,8 @@ Simple examples
     "8 out of 10 cats".numbers  => [8, 10]
 
 
-Advenaced Examples
-------------------
+Advanced Examples
+-----------------
 
   number = Parsenum.parse("$3.99")
   number.value      => 3.99
