@@ -3,7 +3,7 @@ Parsenum
 
 Because sometimes you just want to get numbers out of strings damnit.
 
-This acutally happens a surprising amount. Usually when reading a CSV or scraping a webpage you want extract a number out of a test string. Sure in the simple case .to_i and .to_f work fine but often there's pesky things like commas or pond signs getting in the way.
+This acutally happens a surprising amount. Usually when reading a CSV or scraping a webpage you want extract a number out of a test string. Sure in the simple case .to_i and .to_f work fine but often there's pesky things like commas or pound signs getting in the way.
 
 This library is pretty dumb as parsers go but it's just an attempt to hide all the string ugliness so you can get to the numbers you need.
 
