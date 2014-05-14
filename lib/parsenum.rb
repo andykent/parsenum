@@ -19,6 +19,16 @@ module Parsenum
     end
   end
   module_function :parse_all
+
+  def value(str)
+    parse(str).value
+  end
+  module_function :value
+
+  def values(str)
+    parse_all(str).map(&:value)
+  end
+  module_function :values
 end
 
 require "parsenum/scanner"
